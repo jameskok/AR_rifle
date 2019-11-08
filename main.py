@@ -1,6 +1,4 @@
 
-Config.set('graphics', 'fullscreen', '0')
-
 import numpy as np #иморрт нумпая для работы с np.array
 from kivy.config import Config #испорт разных kivy объектов
 from kivy.app import App
@@ -47,6 +45,7 @@ Builder.load_string('''
 
 
 #заглушки
+#должны лежать в папке с кодом
 p1 = '1.jpg'
 p2 = '2.jpg'
 
