@@ -1,3 +1,4 @@
+#В папке с проектом должны лежать файлы "1.jpg", "2.jpg", "3.jpg". Заглушки. Любые картинки. Не иммеет значения какие.
 from kivy.config import Config
 Config.set('graphics', 'fullscreen', '0')
 
@@ -41,10 +42,6 @@ Builder.load_string('''
         source: '3.jpg'
         size: self.texture_size
 ''')
-
-
-p1 = '1.jpg'
-p2 = '2.jpg'
 
 def change_pic(pic, lout):
     if lout.ids['camera'].texture != None:
