@@ -46,8 +46,6 @@ Builder.load_string('''
 ''')
 
 
-
-
 def change_pic(pic, lout):  #функция обновления картинки 
     if lout.ids['camera'].texture != None:  #если изображение есть
         #объект Camera имеет поле pixels в битовой кодировке. np.array(list()) переводит битовую строку в строку с 
