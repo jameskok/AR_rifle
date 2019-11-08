@@ -1,4 +1,6 @@
 
+#В папке с проектом должны лежать файлы "1.jpg", "2.jpg", "3.jpg". Заглушки. Любые картинки. Не иммеет значения какие.
+
 import numpy as np #иморрт нумпая для работы с np.array
 from kivy.config import Config #испорт разных kivy объектов
 from kivy.app import App
@@ -44,10 +46,6 @@ Builder.load_string('''
 ''')
 
 
-#заглушки
-#должны лежать в папке с кодом
-p1 = '1.jpg'
-p2 = '2.jpg'
 
 
 def change_pic(pic, lout):  #функция обновления картинки 
